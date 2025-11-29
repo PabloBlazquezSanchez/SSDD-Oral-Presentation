@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message DatosSensor {
+  int32 id_dispositivo = 1;
+  string ubicacion = 2;
+  repeated float lecturas = 3;
+  bool estado_activo = 4;
+}
